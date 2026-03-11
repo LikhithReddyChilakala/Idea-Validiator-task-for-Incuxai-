@@ -4,7 +4,7 @@
  * IMPORTANT: Replace 'YOUR_API_KEY' with a valid Google Gemini API Key.
  * You can get one at: https://aistudio.google.com/
  */
-const API_KEY = 'AIzaSyDuo13_-V_iuFvAjweYd9ZeocvKZvmnsGQ';
+const API_KEY = process.env.GEMINI_API_KEY;
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent';
 
 // Strict system prompt to enforce the persona and structural constraints
