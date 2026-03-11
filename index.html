@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Idea Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Startup Idea Validator</h1>
+            <p>Pitch your idea to an AI Venture Capitalist.</p>
+        </header>
+
+        <main class="chat-container" id="chat-container">
+            <!-- Chat messages will be dynamically injected here -->
+        </main>
+
+        <footer class="input-container">
+            <textarea id="idea-input"
+                placeholder="Describe your startup idea (e.g., AI app for predicting the stock market)..."
+                rows="1"></textarea>
+            <button id="send-btn" disabled>Validate</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
